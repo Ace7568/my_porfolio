@@ -401,10 +401,14 @@ border-right: 0.08em solid #666;
   transition: 0.3s ease-in-out;
 }
 
-.project .nav.nav-pills .nav-link.active::before {
+.nav.nav-pills .nav-link.active::before {
   width: 100% !important;
 }
 
+.nav.nav-pills .nav-link:hover{
+  background-color: rgb(224, 207, 207);
+  color:black;
+}
 .proj-imgbx {
   position: relative;
   border-radius: 50px;
@@ -465,21 +469,4 @@ border-right: 0.08em solid #666;
   right: 0;
   z-index: -4;
 }
-/* 
-
-.proj-txtx span {
-  font-style: italic;
-  font-weight: 400;
-  font-size: 15px;
-  letter-spacing: 0.8px;
-}
-.background-image-right {
-  top: 20%;
-  position: absolute;
-  bottom: 0;
-  width: 35%;
-  right: 0;
-  z-index: -4;
-}
- */
 
