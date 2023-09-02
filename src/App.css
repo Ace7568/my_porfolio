@@ -414,6 +414,8 @@ border-right: 0.08em solid #666;
   border-radius: 50px;
   overflow: hidden;
   margin: 24px;
+  display: flex;
+  justify-content: center;
 }
 
 .proj-imgbx::before{
@@ -470,3 +472,9 @@ border-right: 0.08em solid #666;
   z-index: -4;
 }
 
+
+.images{
+  /* display: block; */
+  height: 280px;
+  width: 719px;
+}
